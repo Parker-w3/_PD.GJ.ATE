@@ -207,3 +207,10 @@ E:\Work\repos\A.PD\PD自动线\GJ_ATE\GJ.PDB\obj\Debug\GJ.PDB.csproj.CoreCompile
 E:\Work\repos\A.PD\PD自动线\GJ_ATE\GJ.PDB\obj\Debug\GJ.PDB.csproj.CopyComplete
 E:\Work\repos\A.PD\PD自动线\GJ_ATE\GJ.PDB\obj\Debug\GJ.PDB.dll
 E:\Work\repos\A.PD\PD自动线\GJ_ATE\GJ.PDB\obj\Debug\GJ.PDB.pdb
+E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ.PDB\bin\Debug\GJ.PDB.dll
+E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ.PDB\bin\Debug\GJ.PDB.pdb
+E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ.PDB\obj\Debug\GJ.PDB.csproj.AssemblyReference.cache
+E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ.PDB\obj\Debug\GJ.PDB.csproj.CoreCompileInputs.cache
+E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ.PDB\obj\Debug\GJ.PDB.csproj.CopyComplete
+E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ.PDB\obj\Debug\GJ.PDB.dll
+E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ.PDB\obj\Debug\GJ.PDB.pdb

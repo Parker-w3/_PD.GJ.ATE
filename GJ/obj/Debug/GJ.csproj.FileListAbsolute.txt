@@ -218,3 +218,11 @@ E:\Work\repos\A.PD\PD自动线\GJ_ATE\GJ\obj\Debug\GJ.csproj.CoreCompileInputs.c
 E:\Work\repos\A.PD\PD自动线\GJ_ATE\GJ\obj\Debug\GJ.csproj.CopyComplete
 E:\Work\repos\A.PD\PD自动线\GJ_ATE\GJ\obj\Debug\GJ.dll
 E:\Work\repos\A.PD\PD自动线\GJ_ATE\GJ\obj\Debug\GJ.pdb
+E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ\bin\Debug\GJ.dll
+E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ\bin\Debug\GJ.pdb
+E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ\bin\Debug\ChineseConverter.dll
+E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ\obj\Debug\GJ.csproj.AssemblyReference.cache
+E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ\obj\Debug\GJ.csproj.CoreCompileInputs.cache
+E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ\obj\Debug\GJ.csproj.CopyComplete
+E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ\obj\Debug\GJ.dll
+E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ\obj\Debug\GJ.pdb
