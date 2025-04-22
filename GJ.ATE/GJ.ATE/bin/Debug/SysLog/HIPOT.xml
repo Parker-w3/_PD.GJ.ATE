@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<CSysPara xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <modelPath />
+  <saveReport>false</saveReport>
+  <saveReportTimes>0</saveReportTimes>
+  <reportPath />
+  <ioCom>COM1</ioCom>
+  <hipotDev>Chroma_PLCCOM</hipotDev>
+  <hipotCom1>COM11</hipotCom1>
+  <hipotCom2>COM4</hipotCom2>
+  <plcIp>192.168.3.100</plcIp>
+  <plcPort>502</plcPort>
+  <serIP>192.168.3.209</serIP>
+  <serPort>8000</serPort>
+  <ioDelayMs>300</ioDelayMs>
+  <monDelayMs>100</monDelayMs>
+  <MesDelayMs>200</MesDelayMs>
+  <Hp2DelayMs>2000</Hp2DelayMs>
+  <FailTestCount>3</FailTestCount>
+  <chkHpVolt>true</chkHpVolt>
+  <chkhandleFail>false</chkhandleFail>
+  <chkSpHP>false</chkSpHP>
+  <chkImpPrg>false</chkImpPrg>
+  <chkAutoModel>false</chkAutoModel>
+  <chkSaveTcpLog>false</chkSaveTcpLog>
+  <C_HIPOT_MAX>1</C_HIPOT_MAX>
+  <C_SLOT_MAX>8</C_SLOT_MAX>
+  <StatHipotMode>0</StatHipotMode>
+  <conMes>false</conMes>
+  <ChkMesFail>false</ChkMesFail>
+  <offsetDC>
+    <double>0</double>
+    <double>0</double>
+    <double>0</double>
+    <double>0</double>
+    <double>0</double>
+    <double>0</double>
+    <double>0</double>
+    <double>0</double>
+  </offsetDC>
+  <offsetAC>
+    <double>0</double>
+    <double>0</double>
+    <double>0</double>
+    <double>0</double>
+    <double>0</double>
+    <double>0</double>
+    <double>0</double>
+    <double>0</double>
+  </offsetAC>
+  <chksaveHipotData>true</chksaveHipotData>
+</CSysPara>

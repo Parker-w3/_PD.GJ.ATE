@@ -1,0 +1,8 @@
+数据库名称:autoFlow
+用户:root
+密码:P@ssw0rd
+
+
+[mysqld]
+
+skip-name-resolve

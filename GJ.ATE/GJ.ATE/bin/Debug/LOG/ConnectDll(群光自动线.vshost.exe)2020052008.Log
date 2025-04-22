@@ -1,0 +1,71 @@
+2020-05-20 08:53:11  [          ] File    : G:\PD自动线\GJ_ATE\GJ.ATE\GJ.ATE\bin\Debug\群光自动线.vshost.exe
+2020-05-20 08:53:11  [          ] Version : 10.0.30319.1
+2020-05-20 08:53:11  [          ] (TCenter1.Create)Create Start
+2020-05-20 08:53:11  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2020-05-20 08:53:11  [          ] (TCenter1.Create)Create Over
+2020-05-20 08:53:11  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 10.4.5.250:6211
+2020-05-20 08:53:11  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 10.4.5.250:57081
+2020-05-20 08:53:11  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[10.4.5.250:57081]
+2020-05-20 08:53:11  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 10.4.5.250:57081 OK
+2020-05-20 08:53:11  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[10.4.5.250:57081]
+2020-05-20 08:53:11  [          ] (SajetTransStartType)Function Execute Over
+2020-05-20 08:53:11  [          ] (TThreadTCPServerMainPCClient.executeRsvData.checkLink)Link Remote Server[10.4.5.250:57081]
+2020-05-20 08:53:11  [ERROR     ] (TCenter1.onRsvRemoteData)Rsv Illegeal Port Data[MT:1][G:2][D:6][P:1][B:0][Data:[G:2][D:6] On LineLine : LINE2F05Stage : PackingProcess : SN CHECKTerminal : 2F05SN CHECK01========================================ATS][Data(Hex):5B-47-3A-32-5D-5B-44-3A-36-5D-20-4F-6E-20-4C-69-6E-65-0D-4C-69-6E-65-20-3A-20-4C-49-4E-45-32-46-30-35-0D-53-74-61-67-65-20-3A-20-50-61-63-6B-69-6E-67-0D-50-72-6F-63-65-73-73-20-3A-20-53-4E-20-43-48-45-43-4B-0D-54-65-72-6D-69-6E-61-6C-20-3A-20-32-46-30-35-53-4E-20-43-48-45-43-4B-30-31-0D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-0D-41-54-53-]
+2020-05-20 08:53:14  [          ] (SajetTransferData)Function Execute Start [P:4][C:1][Data:222;222;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ]
+2020-05-20 08:53:14  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:1;222;222;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ][10.4.5.250:57081]
+2020-05-20 08:53:14  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : UNKNOW COMMAND NO - 1
+2020-05-20 08:53:14  [          ] (SajetTransferData)Exexecute Result=FALSE
+2020-05-20 08:53:15  [          ] (TCenter1.Destroy)Destroy Start
+2020-05-20 08:53:15  [          ] (TThreadTCPServerPCClient.Destroy)Cloes TCP/IP Server Start
+2020-05-20 08:53:15  [          ] (TThreadTCPServerPCClient.ServerSocketClientDisconnect)TCP/IP Client Disconnect - 10.4.5.250:6211
+2020-05-20 08:53:57  [          ] File    : G:\PD自动线\GJ_ATE\GJ.ATE\GJ.ATE\bin\Debug\群光自动线.vshost.exe
+2020-05-20 08:53:57  [          ] Version : 10.0.30319.1
+2020-05-20 08:53:57  [          ] (TCenter1.Create)Create Start
+2020-05-20 08:53:57  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2020-05-20 08:53:57  [          ] (TCenter1.Create)Create Over
+2020-05-20 08:53:58  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 10.4.5.250:6211
+2020-05-20 08:53:58  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 10.4.5.250:57368
+2020-05-20 08:53:58  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[10.4.5.250:57368]
+2020-05-20 08:53:58  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 10.4.5.250:57368 OK
+2020-05-20 08:53:58  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[10.4.5.250:57368]
+2020-05-20 08:53:58  [          ] (SajetTransStartType)Function Execute Over
+2020-05-20 08:53:58  [          ] (TThreadTCPServerMainPCClient.executeRsvData.checkLink)Link Remote Server[10.4.5.250:57368]
+2020-05-20 08:53:58  [ERROR     ] (TCenter1.onRsvRemoteData)Rsv Illegeal Port Data[MT:1][G:2][D:6][P:1][B:0][Data:[G:2][D:6] On LineLine : LINE2F05Stage : PackingProcess : SN CHECKTerminal : 2F05SN CHECK01========================================ATS][Data(Hex):5B-47-3A-32-5D-5B-44-3A-36-5D-20-4F-6E-20-4C-69-6E-65-0D-4C-69-6E-65-20-3A-20-4C-49-4E-45-32-46-30-35-0D-53-74-61-67-65-20-3A-20-50-61-63-6B-69-6E-67-0D-50-72-6F-63-65-73-73-20-3A-20-53-4E-20-43-48-45-43-4B-0D-54-65-72-6D-69-6E-61-6C-20-3A-20-32-46-30-35-53-4E-20-43-48-45-43-4B-30-31-0D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-0D-41-54-53-]
+2020-05-20 08:54:08  [          ] (SajetTransferData)Function Execute Start [P:4][C:1][Data:222;222;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ]
+2020-05-20 08:54:08  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:1;222;222;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ][10.4.5.250:57368]
+2020-05-20 08:54:08  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : UNKNOW COMMAND NO - 1
+2020-05-20 08:54:08  [          ] (SajetTransferData)Exexecute Result=FALSE
+2020-05-20 08:54:24  [          ] File    : G:\PD自动线\GJ_ATE\GJ.ATE\GJ.ATE\bin\Debug\群光自动线.vshost.exe
+2020-05-20 08:54:24  [          ] Version : 10.0.30319.1
+2020-05-20 08:54:24  [          ] (TCenter1.Create)Create Start
+2020-05-20 08:54:24  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2020-05-20 08:54:24  [          ] (TCenter1.Create)Create Over
+2020-05-20 08:54:25  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 10.4.5.250:6211
+2020-05-20 08:54:25  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 10.4.5.250:57544
+2020-05-20 08:54:25  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[10.4.5.250:57544]
+2020-05-20 08:54:25  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 10.4.5.250:57544 OK
+2020-05-20 08:54:25  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[10.4.5.250:57544]
+2020-05-20 08:54:25  [          ] (SajetTransStartType)Function Execute Over
+2020-05-20 08:54:25  [          ] (TThreadTCPServerMainPCClient.executeRsvData.checkLink)Link Remote Server[10.4.5.250:57544]
+2020-05-20 08:54:25  [ERROR     ] (TCenter1.onRsvRemoteData)Rsv Illegeal Port Data[MT:1][G:2][D:6][P:1][B:0][Data:[G:2][D:6] On LineLine : LINE2F05Stage : PackingProcess : SN CHECKTerminal : 2F05SN CHECK01========================================ATS][Data(Hex):5B-47-3A-32-5D-5B-44-3A-36-5D-20-4F-6E-20-4C-69-6E-65-0D-4C-69-6E-65-20-3A-20-4C-49-4E-45-32-46-30-35-0D-53-74-61-67-65-20-3A-20-50-61-63-6B-69-6E-67-0D-50-72-6F-63-65-73-73-20-3A-20-53-4E-20-43-48-45-43-4B-0D-54-65-72-6D-69-6E-61-6C-20-3A-20-32-46-30-35-53-4E-20-43-48-45-43-4B-30-31-0D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-0D-41-54-53-]
+2020-05-20 08:54:40  [          ] (SajetTransferData)Function Execute Start [P:4][C:1][Data:222;222;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ]
+2020-05-20 08:54:40  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:1;222;222;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ][10.4.5.250:57544]
+2020-05-20 08:54:40  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : UNKNOW COMMAND NO - 1
+2020-05-20 08:54:40  [          ] (SajetTransferData)Exexecute Result=FALSE
+2020-05-20 08:55:08  [          ] File    : G:\PD自动线\GJ_ATE\GJ.ATE\GJ.ATE\bin\Debug\群光自动线.vshost.exe
+2020-05-20 08:55:08  [          ] Version : 10.0.30319.1
+2020-05-20 08:55:08  [          ] (TCenter1.Create)Create Start
+2020-05-20 08:55:08  [          ] (TThreadTCPServerPCClient.ServerSocketListen)TCP/IP Server Listening with :6211
+2020-05-20 08:55:08  [          ] (TCenter1.Create)Create Over
+2020-05-20 08:55:08  [          ] (TThreadTCPServerPCClient.ServerSocketAccept)TCP/IP Client Accept - 10.4.5.250:6211
+2020-05-20 08:55:08  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 10.4.5.250:57795
+2020-05-20 08:55:08  [          ] (TThreadTCPServerMainPCClient.Create)Create TCP Server Thread OK[10.4.5.250:57795]
+2020-05-20 08:55:08  [          ] (TThreadTCPServerPCClient.ServerSocketGetThread)TCP/IP Client Get Thread - 10.4.5.250:57795 OK
+2020-05-20 08:55:08  [          ] (TThreadTCPServerMainPCClient.ClientExecute)Execute Rsv Data Thread Start[10.4.5.250:57795]
+2020-05-20 08:55:09  [          ] (SajetTransStartType)Function Execute Over
+2020-05-20 08:55:09  [          ] (TThreadTCPServerMainPCClient.executeRsvData.checkLink)Link Remote Server[10.4.5.250:57795]
+2020-05-20 08:55:09  [ERROR     ] (TCenter1.onRsvRemoteData)Rsv Illegeal Port Data[MT:1][G:2][D:6][P:1][B:0][Data:[G:2][D:6] On LineLine : LINE2F05Stage : PackingProcess : SN CHECKTerminal : 2F05SN CHECK01========================================ATS][Data(Hex):5B-47-3A-32-5D-5B-44-3A-36-5D-20-4F-6E-20-4C-69-6E-65-0D-4C-69-6E-65-20-3A-20-4C-49-4E-45-32-46-30-35-0D-53-74-61-67-65-20-3A-20-50-61-63-6B-69-6E-67-0D-50-72-6F-63-65-73-73-20-3A-20-53-4E-20-43-48-45-43-4B-0D-54-65-72-6D-69-6E-61-6C-20-3A-20-32-46-30-35-53-4E-20-43-48-45-43-4B-30-31-0D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-3D-0D-41-54-53-]
+2020-05-20 08:55:22  [          ] (SajetTransferData)Function Execute Start [P:4][C:2][Data:222;222;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ]
+2020-05-20 08:55:22  [          ] (TThreadTCPServerMainPCClient.sendDataToRemote)Add Send Data[P:4][Data:2;222;222;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ][10.4.5.250:57795]
+2020-05-20 08:55:22  [          ] (TCenter1.onRsvRemoteData)Rsv Feedback Data : NO SN
+2020-05-20 08:55:22  [          ] (SajetTransferData)Exexecute Result=FALSE

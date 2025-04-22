@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{447F3504-E9DE-4360-B1EB-6763DEAB4575}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GJ.Tool</RootNamespace>
+    <AssemblyName>GJ.Tool</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="udcELoad.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="udcELoad.designer.cs">
+      <DependentUpon>udcELoad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="udcGJMon32.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="udcGJMon32.designer.cs">
+      <DependentUpon>udcGJMon32.cs</DependentUpon>
+    </Compile>
+    <Compile Include="udcIDCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="udcIDCard.designer.cs">
+      <DependentUpon>udcIDCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="udcGJIO.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="udcGJIO.Designer.cs">
+      <DependentUpon>udcGJIO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="udcIO.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="udcIO.designer.cs">
+      <DependentUpon>udcIO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="udcPLC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="udcPLC.Designer.cs">
+      <DependentUpon>udcPLC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="udcTcp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="udcTcp.Designer.cs">
+      <DependentUpon>udcTcp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="udcVoltMeter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="udcVoltMeter.designer.cs">
+      <DependentUpon>udcVoltMeter.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="udcELoad.resx">
+      <DependentUpon>udcELoad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="udcGJMon32.resx">
+      <DependentUpon>udcGJMon32.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="udcIDCard.resx">
+      <DependentUpon>udcIDCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="udcGJIO.resx">
+      <DependentUpon>udcGJIO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="udcIO.resx">
+      <DependentUpon>udcIO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="udcPLC.resx">
+      <DependentUpon>udcPLC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="udcTcp.resx">
+      <DependentUpon>udcTcp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="udcVoltMeter.resx">
+      <DependentUpon>udcVoltMeter.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GJ.Dev\GJ.Dev.csproj">
+      <Project>{1DAF448E-A68C-408E-AD8C-7577494176FF}</Project>
+      <Name>GJ.Dev</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GJ.Para\GJ.Para.csproj">
+      <Project>{72909A54-B004-4B88-B451-2175EC9460A6}</Project>
+      <Name>GJ.Para</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GJ.PDB\GJ.PDB.csproj">
+      <Project>{FDB0AABF-D5EB-4060-ADFF-6859B86DE778}</Project>
+      <Name>GJ.PDB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GJ.UI\GJ.UI.csproj">
+      <Project>{6A2F34CF-C099-4A9B-942F-A46994D1924B}</Project>
+      <Name>GJ.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GJ\GJ.csproj">
+      <Project>{806B29EE-C4D8-45E0-AF87-DC05E093B4B6}</Project>
+      <Name>GJ</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

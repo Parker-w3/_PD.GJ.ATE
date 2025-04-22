@@ -1,0 +1,97 @@
+15:56:28.531 | 成功打开高压机,初始化高压机
+15:56:28.593 | 成功控制IO板串口,检测控制IO板通信正常.
+15:56:28.609 | 开始加载HIPOT参数[],请稍等..
+15:56:30.265 | 成功加载HIPOT参数[].
+15:56:30.312 | <HP仪器1>开始启动测试
+15:56:30.703 | <HP仪器1>测试通道【1】开始测试
+15:56:31.593 | 获取高压测试结果错误:System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at GJ.Para.HIPOT.udcRun.GetResultFromHP(Int32 idNo, Int32 curFixStep, String& er) in H:\群光自动线\GJ_ATE\GJ.Para\HIPOT\udcRun.cs:line 1990
+15:56:32.234 | <HP仪器1>测试通道【2】开始测试
+15:56:33.078 | 获取高压测试结果错误:System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at GJ.Para.HIPOT.udcRun.GetResultFromHP(Int32 idNo, Int32 curFixStep, String& er) in H:\群光自动线\GJ_ATE\GJ.Para\HIPOT\udcRun.cs:line 1990
+15:56:33.718 | <HP仪器1>测试通道【3】开始测试
+15:56:34.562 | 获取高压测试结果错误:System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at GJ.Para.HIPOT.udcRun.GetResultFromHP(Int32 idNo, Int32 curFixStep, String& er) in H:\群光自动线\GJ_ATE\GJ.Para\HIPOT\udcRun.cs:line 1990
+15:56:35.203 | <HP仪器1>测试通道【4】开始测试
+15:56:36.046 | 获取高压测试结果错误:System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at GJ.Para.HIPOT.udcRun.GetResultFromHP(Int32 idNo, Int32 curFixStep, String& er) in H:\群光自动线\GJ_ATE\GJ.Para\HIPOT\udcRun.cs:line 1990
+15:56:36.703 | <HP仪器1>测试通道【5】开始测试
+15:56:37.546 | 获取高压测试结果错误:System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at GJ.Para.HIPOT.udcRun.GetResultFromHP(Int32 idNo, Int32 curFixStep, String& er) in H:\群光自动线\GJ_ATE\GJ.Para\HIPOT\udcRun.cs:line 1990
+15:56:38.187 | <HP仪器1>测试通道【6】开始测试
+15:56:39.031 | 获取高压测试结果错误:System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at GJ.Para.HIPOT.udcRun.GetResultFromHP(Int32 idNo, Int32 curFixStep, String& er) in H:\群光自动线\GJ_ATE\GJ.Para\HIPOT\udcRun.cs:line 1990
+15:56:39.671 | <HP仪器1>测试通道【7】开始测试
+15:56:40.515 | 获取高压测试结果错误:System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at GJ.Para.HIPOT.udcRun.GetResultFromHP(Int32 idNo, Int32 curFixStep, String& er) in H:\群光自动线\GJ_ATE\GJ.Para\HIPOT\udcRun.cs:line 1990
+15:56:41.187 | <HP仪器1>测试通道【8】开始测试
+15:56:42.031 | 获取高压测试结果错误:System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at GJ.Para.HIPOT.udcRun.GetResultFromHP(Int32 idNo, Int32 curFixStep, String& er) in H:\群光自动线\GJ_ATE\GJ.Para\HIPOT\udcRun.cs:line 1990
+15:56:42.062 | <HP仪器1>测试结束:11.7秒
+15:56:53.578 | 开始加载HIPOT参数[],请稍等..
+15:56:55.250 | 成功加载HIPOT参数[].
+15:56:55.281 | <HP仪器1>开始启动测试
+15:56:55.953 | <HP仪器1>测试通道【1】开始测试
+16:09:29.390 | 打开高压机串口失败:System.UnauthorizedAccessException: Access to the port 'COM3' is denied.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at GJ.Dev.COM.CSerialPort.open(String comName, String& er, String setting) in G:\群光自动线\GJ_ATE\GJ.Dev\COM\CSerialPort.cs:line 121
+16:09:35.000 | 成功打开高压机,初始化高压机
+16:09:35.031 | 成功控制IO板串口,检测控制IO板通信正常.
+16:09:35.046 | 开始加载HIPOT参数[],请稍等..
+16:09:36.703 | 成功加载HIPOT参数[].
+16:09:36.718 | <HP仪器1>开始启动测试
+16:09:37.109 | <HP仪器1>测试通道【1】开始测试
+16:09:52.250 | <HP仪器1>测试通道【2】开始测试
+16:09:56.953 | <HP仪器1>测试通道【3】开始测试
+16:09:58.421 | <HP仪器1>测试通道【4】开始测试
+16:09:59.875 | <HP仪器1>测试通道【5】开始测试
+16:10:01.343 | <HP仪器1>测试通道【6】开始测试
+16:10:02.812 | <HP仪器1>测试通道【7】开始测试
+16:10:04.250 | <HP仪器1>测试通道【8】开始测试
+16:10:05.093 | <HP仪器1>测试结束:28.3秒
+16:10:22.562 | 关闭高压机串口
+16:10:22.593 | 关闭控制IO板串口
+16:14:15.484 | 成功打开高压机,初始化高压机
+16:14:15.515 | 成功控制IO板串口,检测控制IO板通信正常.
+16:14:15.531 | 开始加载HIPOT参数[],请稍等..
+16:14:17.187 | 成功加载HIPOT参数[].
+16:14:17.218 | <HP仪器1>开始启动测试
+16:14:17.609 | <HP仪器1>测试通道【1】开始测试
+16:14:18.421 | 关闭高压机串口
+16:14:18.468 | 关闭控制IO板串口
+16:14:18.484 | 获取高压测试结果错误:System.NullReferenceException: Object reference not set to an instance of an object.
+   at GJ.Dev.COM.CSerialPort.send(String wData, String rEOI, String& rData, String& er, Int32 timeOut) in G:\群光自动线\GJ_ATE\GJ.Dev\COM\CSerialPort.cs:line 324
+16:14:18.515 | <HP仪器1>设置测试通道2错误:System.NullReferenceException: Object reference not set to an instance of an object.
+   at GJ.Para.HIPOT.udcRun.SetIOAndHPEvent(Int32 curFixStep, String& er, Boolean setCHEnable) in G:\群光自动线\GJ_ATE\GJ.Para\HIPOT\udcRun.cs:line 1880
+16:14:18.546 | <HP仪器1>测试结束:1.3秒
+21:20:44.078 | 成功打开Chroma电子负载,初始化Chroma电子负载
+21:20:44.171 | 成功控制IO板串口,检测控制IO板通信正常.
+21:20:47.359 | TurnON无法连接测试服务器[127.0.0.1]:8000
+21:20:47.390 | 关闭控制IO板串口
+21:20:47.406 | 关闭Chroma电子负载串口

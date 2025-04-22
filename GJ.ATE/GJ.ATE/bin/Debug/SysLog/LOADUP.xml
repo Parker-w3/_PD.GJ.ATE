@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<CSysPara xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <modelPath />
+  <saveReport>true</saveReport>
+  <saveReportTimes>1</saveReportTimes>
+  <reportPath>D:\Report</reportPath>
+  <plcIp>192.168.3.100</plcIp>
+  <plcPort>502</plcPort>
+  <idCom>COM1</idCom>
+  <eloadCom>COM2</eloadCom>
+  <ACRCom>COM3</ACRCom>
+  <mySqlIp>localhost</mySqlIp>
+  <acDelayTimes>5000</acDelayTimes>
+  <testTimes>3</testTimes>
+  <MesDelatTime>200</MesDelatTime>
+  <chkAcOn>false</chkAcOn>
+  <chkFailGo>true</chkFailGo>
+  <chkFailWait>false</chkFailWait>
+  <chkAcMeter>false</chkAcMeter>
+  <SpotCheckSn>
+    <string>1</string>
+    <string>2</string>
+    <string>3</string>
+    <string>4</string>
+    <string>5</string>
+    <string>6</string>
+    <string>7</string>
+    <string>8</string>
+  </SpotCheckSn>
+  <connectorTimes>3000</connectorTimes>
+  <fixtureTimes>3000</fixtureTimes>
+  <failTimes>100</failTimes>
+  <monAddr>77</monAddr>
+  <handBandSn>true</handBandSn>
+  <snLen>12</snLen>
+  <snSpec />
+  <conMes>true</conMes>
+  <PTconMes>true</PTconMes>
+  <MesUserName />
+  <MesPassWord />
+  <MesStation>SN CHECK,OK</MesStation>
+  <dayTimeOut>7</dayTimeOut>
+  <OffSetV>1</OffSetV>
+  <OffSetCur>1</OffSetCur>
+</CSysPara>

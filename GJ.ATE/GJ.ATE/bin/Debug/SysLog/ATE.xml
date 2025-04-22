@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<CSysPara xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <modelPath />
+  <saveReport>false</saveReport>
+  <saveReportTimes>0</saveReportTimes>
+  <reportPath />
+  <serIP>192.168.3.209</serIP>
+  <serPort>8000</serPort>
+  <chkIo>true</chkIo>
+  <ioCom>COM2</ioCom>
+  <ate_Languge>0</ate_Languge>
+  <ate_title_name>Chroma 8020 IDE - [Execution Control]</ate_title_name>
+  <ate_result_folder>C:\Program Files\Chroma\Chroma 8020\Log</ate_result_folder>
+  <ate_scanSn_name>BarCode Reader</ate_scanSn_name>
+  <ate_scanSn_Enable>true</ate_scanSn_Enable>
+  <ate_result_delay>100</ate_result_delay>
+  <ate_result_repeats>15</ate_result_repeats>
+  <chkSaveTcpLog>false</chkSaveTcpLog>
+  <monDelayMs>500</monDelayMs>
+  <statATEMode>4</statATEMode>
+  <ChkRelay>true</ChkRelay>
+  <acCOM>COM3</acCOM>
+  <ACStartVmax>10</ACStartVmax>
+  <DCVmin>3</DCVmin>
+  <DCVmax>10</DCVmax>
+  <ACVmin>90</ACVmin>
+  <ACVmax>150</ACVmax>
+  <RelayDelayMs>1500</RelayDelayMs>
+</CSysPara>

@@ -1,0 +1,517 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{72909A54-B004-4B88-B451-2175EC9460A6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GJ.Para</RootNamespace>
+    <AssemblyName>GJ.Para</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="halcondotnet">
+      <HintPath>..\GJ.ATE\GJ.ATE\bin\Debug\halcondotnet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ATE\CChromaHwnd.cs" />
+    <Compile Include="ATE\CSysPara.cs" />
+    <Compile Include="ATE\udcRun.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ATE\udcRun.Designer.cs">
+      <DependentUpon>udcRun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ATE\udcSysPara.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ATE\udcSysPara.Designer.cs">
+      <DependentUpon>udcSysPara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\CModelBase.cs" />
+    <Compile Include="Base\CSysBase.cs" />
+    <Compile Include="Base\udcMainBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\udcMainBase.Designer.cs">
+      <DependentUpon>udcMainBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\udcModelBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\udcModelBase.Designer.cs">
+      <DependentUpon>udcModelBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\udcSysBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\udcSysBase.Designer.cs">
+      <DependentUpon>udcSysBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BURNIN\CModelPara.cs" />
+    <Compile Include="BURNIN\CSysPara.cs" />
+    <Compile Include="BURNIN\udcModelPara.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BURNIN\udcModelPara.Designer.cs">
+      <DependentUpon>udcModelPara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BURNIN\udcRun.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BURNIN\udcRun.Designer.cs">
+      <DependentUpon>udcRun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BURNIN\udcSelLocal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BURNIN\udcSelLocal.designer.cs">
+      <DependentUpon>udcSelLocal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BURNIN\udcSysPara.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BURNIN\udcSysPara.Designer.cs">
+      <DependentUpon>udcSysPara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BURNIN\udcUUTInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BURNIN\udcUUTInfo.Designer.cs">
+      <DependentUpon>udcUUTInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Com\CGlobal.cs" />
+    <Compile Include="HIPOT\CModelPara.cs" />
+    <Compile Include="HIPOT\CSysPara.cs" />
+    <Compile Include="HIPOT\udcModelPara.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HIPOT\udcModelPara.Designer.cs">
+      <DependentUpon>udcModelPara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIPOT\udcRun.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HIPOT\udcRun.Designer.cs">
+      <DependentUpon>udcRun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HIPOT\udcSysPara.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HIPOT\udcSysPara.Designer.cs">
+      <DependentUpon>udcSysPara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LOADUP\CModelPara.cs" />
+    <Compile Include="LOADUP\CSysPara.cs" />
+    <Compile Include="LOADUP\udcModelPara.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LOADUP\udcModelPara.Designer.cs">
+      <DependentUpon>udcModelPara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LOADUP\udcRun.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LOADUP\udcRun.Designer.cs">
+      <DependentUpon>udcRun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LOADUP\udcSysPara.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LOADUP\udcSysPara.Designer.cs">
+      <DependentUpon>udcSysPara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="TURNON\CModelPara.cs" />
+    <Compile Include="TURNON\CSysPara.cs" />
+    <Compile Include="TURNON\udcModelPara.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TURNON\udcModelPara.designer.cs">
+      <DependentUpon>udcModelPara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TURNON\udcRun.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TURNON\udcRun.designer.cs">
+      <DependentUpon>udcRun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TURNON\udcSysPara.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TURNON\udcSysPara.designer.cs">
+      <DependentUpon>udcSysPara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Udc\BURNIN\udcClrDealTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Udc\BURNIN\udcClrDealTime.Designer.cs">
+      <DependentUpon>udcClrDealTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Udc\BURNIN\udcHandInPos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Udc\BURNIN\udcHandInPos.Designer.cs">
+      <DependentUpon>udcHandInPos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Udc\BURNIN\udcIdSlot.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Udc\BURNIN\udcIdSlot.Designer.cs">
+      <DependentUpon>udcIdSlot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Udc\BURNIN\udcOnOff.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Udc\BURNIN\udcOnOff.designer.cs">
+      <DependentUpon>udcOnOff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Udc\BURNIN\udcOnOffWave.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Udc\BURNIN\udcOnOffWave.designer.cs">
+      <DependentUpon>udcOnOffWave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Udc\BURNIN\udcUUTSlot.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Udc\BURNIN\udcUUTSlot.Designer.cs">
+      <DependentUpon>udcUUTSlot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Udc\TURNON\udcTurnOnResult.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Udc\TURNON\udcTurnOnResult.Designer.cs">
+      <DependentUpon>udcTurnOnResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Udc\UNLOAD\udcRRCCResult.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Udc\UNLOAD\udcRRCCResult.Designer.cs">
+      <DependentUpon>udcRRCCResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Udc\TURNON\udcTURNON.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Udc\TURNON\udcTURNON.designer.cs">
+      <DependentUpon>udcTURNON.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Udc\TURNON\udcTurnOnData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Udc\TURNON\udcTurnOnData.Designer.cs">
+      <DependentUpon>udcTurnOnData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Udc\udcFixture.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Udc\udcFixture.Designer.cs">
+      <DependentUpon>udcFixture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Udc\HIPOT\udcHPChan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Udc\HIPOT\udcHPChan.Designer.cs">
+      <DependentUpon>udcHPChan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Udc\HIPOT\udcHPData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Udc\HIPOT\udcHPData.Designer.cs">
+      <DependentUpon>udcHPData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Udc\HIPOT\udcHPInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Udc\HIPOT\udcHPInfo.Designer.cs">
+      <DependentUpon>udcHPInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Udc\HIPOT\udcHPPara.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Udc\HIPOT\udcHPPara.Designer.cs">
+      <DependentUpon>udcHPPara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Udc\HIPOT\udcHPResult.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Udc\HIPOT\udcHPResult.Designer.cs">
+      <DependentUpon>udcHPResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Udc\LOADUP\udcSnBand.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Udc\LOADUP\udcSnBand.Designer.cs">
+      <DependentUpon>udcSnBand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Udc\LOADUP\udcPreTest.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Udc\LOADUP\udcPreTest.Designer.cs">
+      <DependentUpon>udcPreTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Udc\udcTcpRecv.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Udc\udcTcpRecv.Designer.cs">
+      <DependentUpon>udcTcpRecv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Udc\UNLOAD\udcRRCCinfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Udc\UNLOAD\udcRRCCinfo.designer.cs">
+      <DependentUpon>udcRRCCinfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Udc\UNLOAD\udcRRCCData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Udc\UNLOAD\udcRRCCData.Designer.cs">
+      <DependentUpon>udcRRCCData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Udc\UNLOAD\udcUnload.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Udc\UNLOAD\udcUnload.Designer.cs">
+      <DependentUpon>udcUnload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Udc\udcFixtureBand.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Udc\udcFixtureBand.Designer.cs">
+      <DependentUpon>udcFixtureBand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UNLOAD\CModelPara.cs" />
+    <Compile Include="UNLOAD\CSysPara.cs" />
+    <Compile Include="UNLOAD\CTcpRepose.cs" />
+    <Compile Include="UNLOAD\udcModelPara.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UNLOAD\udcModelPara.Designer.cs">
+      <DependentUpon>udcModelPara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UNLOAD\udcRun.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UNLOAD\udcRun.Designer.cs">
+      <DependentUpon>udcRun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UNLOAD\udcSysPara.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UNLOAD\udcSysPara.Designer.cs">
+      <DependentUpon>udcSysPara.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GJ.Dev\GJ.Dev.csproj">
+      <Project>{1DAF448E-A68C-408E-AD8C-7577494176FF}</Project>
+      <Name>GJ.Dev</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GJ.Mes\GJ.Mes.csproj">
+      <Project>{CADFBD4C-2225-4F4E-91A6-EA2173EB8D38}</Project>
+      <Name>GJ.Mes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GJ.PDB\GJ.PDB.csproj">
+      <Project>{FDB0AABF-D5EB-4060-ADFF-6859B86DE778}</Project>
+      <Name>GJ.PDB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GJ.UI\GJ.UI.csproj">
+      <Project>{6A2F34CF-C099-4A9B-942F-A46994D1924B}</Project>
+      <Name>GJ.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GJ\GJ.csproj">
+      <Project>{806B29EE-C4D8-45E0-AF87-DC05E093B4B6}</Project>
+      <Name>GJ</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="ATE\udcRun.resx">
+      <DependentUpon>udcRun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ATE\udcSysPara.resx">
+      <DependentUpon>udcSysPara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\udcMainBase.resx">
+      <DependentUpon>udcMainBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\udcModelBase.resx">
+      <DependentUpon>udcModelBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\udcSysBase.resx">
+      <DependentUpon>udcSysBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BURNIN\udcModelPara.resx">
+      <DependentUpon>udcModelPara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BURNIN\udcRun.resx">
+      <DependentUpon>udcRun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BURNIN\udcSelLocal.resx">
+      <DependentUpon>udcSelLocal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BURNIN\udcSysPara.resx">
+      <DependentUpon>udcSysPara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BURNIN\udcUUTInfo.resx">
+      <DependentUpon>udcUUTInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIPOT\udcModelPara.resx">
+      <DependentUpon>udcModelPara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIPOT\udcRun.resx">
+      <DependentUpon>udcRun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HIPOT\udcSysPara.resx">
+      <DependentUpon>udcSysPara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOADUP\udcModelPara.resx">
+      <DependentUpon>udcModelPara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOADUP\udcRun.resx">
+      <DependentUpon>udcRun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOADUP\udcSysPara.resx">
+      <DependentUpon>udcSysPara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TURNON\udcModelPara.resx">
+      <DependentUpon>udcModelPara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TURNON\udcRun.resx">
+      <DependentUpon>udcRun.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TURNON\udcSysPara.resx">
+      <DependentUpon>udcSysPara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\BURNIN\udcClrDealTime.resx">
+      <DependentUpon>udcClrDealTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\BURNIN\udcHandInPos.resx">
+      <DependentUpon>udcHandInPos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\BURNIN\udcIdSlot.resx">
+      <DependentUpon>udcIdSlot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\BURNIN\udcOnOff.resx">
+      <DependentUpon>udcOnOff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\BURNIN\udcOnOffWave.resx">
+      <DependentUpon>udcOnOffWave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\BURNIN\udcUUTSlot.resx">
+      <DependentUpon>udcUUTSlot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\TURNON\udcTurnOnResult.resx">
+      <DependentUpon>udcTurnOnResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\UNLOAD\udcRRCCResult.resx">
+      <DependentUpon>udcRRCCResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\TURNON\udcTURNON.resx">
+      <DependentUpon>udcTURNON.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\TURNON\udcTurnOnData.resx">
+      <DependentUpon>udcTurnOnData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\udcFixture.resx">
+      <DependentUpon>udcFixture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\HIPOT\udcHPChan.resx">
+      <DependentUpon>udcHPChan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\HIPOT\udcHPData.resx">
+      <DependentUpon>udcHPData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\HIPOT\udcHPInfo.resx">
+      <DependentUpon>udcHPInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\HIPOT\udcHPPara.resx">
+      <DependentUpon>udcHPPara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\HIPOT\udcHPResult.resx">
+      <DependentUpon>udcHPResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\LOADUP\udcSnBand.resx">
+      <DependentUpon>udcSnBand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\LOADUP\udcPreTest.resx">
+      <DependentUpon>udcPreTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\udcTcpRecv.resx">
+      <DependentUpon>udcTcpRecv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\UNLOAD\udcRRCCinfo.resx">
+      <DependentUpon>udcRRCCinfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\UNLOAD\udcRRCCData.resx">
+      <DependentUpon>udcRRCCData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\UNLOAD\udcUnload.resx">
+      <DependentUpon>udcUnload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Udc\udcFixtureBand.resx">
+      <DependentUpon>udcFixtureBand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UNLOAD\udcModelPara.resx">
+      <DependentUpon>udcModelPara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UNLOAD\udcRun.resx">
+      <DependentUpon>udcRun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UNLOAD\udcSysPara.resx">
+      <DependentUpon>udcSysPara.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

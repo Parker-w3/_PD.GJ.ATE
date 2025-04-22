@@ -1,0 +1,9 @@
+﻿<Device Name="DebugTool">
+   <汇川PLC>1</汇川PLC>
+   <ID读卡器>1</ID读卡器>
+   <控制板GJMon32>1</控制板GJMon32> 
+   <高压IO控制板>1</高压IO控制板>   
+   <TCP通信>1</TCP通信>   
+   <LED电子负载>0</LED电子负载> 
+   <电压采集模块>1</电压采集模块> 
+</Device>

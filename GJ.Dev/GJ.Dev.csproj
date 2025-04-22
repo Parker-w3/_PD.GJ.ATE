@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1DAF448E-A68C-408E-AD8C-7577494176FF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GJ.Dev</RootNamespace>
+    <AssemblyName>GJ.Dev</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ATEXY\CGJX6Y6.cs" />
+    <Compile Include="Card\CCardCom.cs" />
+    <Compile Include="Card\CMFID.cs" />
+    <Compile Include="Card\ICARD.cs" />
+    <Compile Include="ChromaLCR\ChromaLCR.cs" />
+    <Compile Include="COM\CSerialPort.cs" />
+    <Compile Include="COM\CTcpPort.cs" />
+    <Compile Include="COM\ICom.cs" />
+    <Compile Include="ELoad\CELCom.cs" />
+    <Compile Include="ELoad\GJEL_100_04.cs" />
+    <Compile Include="ELoad\GJEL_20_16.cs" />
+    <Compile Include="ELoad\GJEL_40_8L.cs" />
+    <Compile Include="ELoad\GJEL_80_4L.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ELoad\IELBase.cs" />
+    <Compile Include="ERS\CERSCom.cs" />
+    <Compile Include="ERS\CERSPara.cs" />
+    <Compile Include="ERS\GJ272_4.cs" />
+    <Compile Include="ERS\IERS.cs" />
+    <Compile Include="HIPOT\CChroma19020.cs" />
+    <Compile Include="HIPOT\CChromaPLC.cs" />
+    <Compile Include="HIPOT\CHIPOTCom.cs" />
+    <Compile Include="HIPOT\CHPSetting.cs" />
+    <Compile Include="HIPOT\HYESA140.cs" />
+    <Compile Include="HIPOT\IHIPOT.cs" />
+    <Compile Include="IO\CIOCom.cs" />
+    <Compile Include="IO\CIO_I8_O14.cs" />
+    <Compile Include="IO\IIO.cs" />
+    <Compile Include="ChromaEload\Chroma6334.cs" />
+    <Compile Include="Meter\CPRU80_R1_2A_AC.cs" />
+    <Compile Include="Mon\CGJMonCom.cs" />
+    <Compile Include="Mon\CGJMonPara.cs" />
+    <Compile Include="Mon\GJMon32.cs" />
+    <Compile Include="Mon\IGJMON.cs" />
+    <Compile Include="PLC\Inovance_TCP.cs" />
+    <Compile Include="PLC\CPLCArgs.cs" />
+    <Compile Include="PLC\CPLCCom.cs" />
+    <Compile Include="PLC\CPLCPara.cs" />
+    <Compile Include="PLC\Inovance_COM.cs" />
+    <Compile Include="PLC\IPLC.cs" />
+    <Compile Include="PLC\Omron_COM.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RemIO\CIOArgs.cs" />
+    <Compile Include="RemIO\CIOCom.cs" />
+    <Compile Include="RemIO\CIOPara.cs" />
+    <Compile Include="RemIO\GJIO_16_32.cs" />
+    <Compile Include="RemIO\IIO.cs" />
+    <Compile Include="RemIO\IO_24_16.cs" />
+    <Compile Include="TCP\CTcpArgs.cs" />
+    <Compile Include="TCP\CTcpClient.cs" />
+    <Compile Include="TCP\CTcpServer.cs" />
+    <Compile Include="VoltMeter\ZH400063.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GJ.PDB\GJ.PDB.csproj">
+      <Project>{FDB0AABF-D5EB-4060-ADFF-6859B86DE778}</Project>
+      <Name>GJ.PDB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GJ\GJ.csproj">
+      <Project>{806B29EE-C4D8-45E0-AF87-DC05E093B4B6}</Project>
+      <Name>GJ</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
