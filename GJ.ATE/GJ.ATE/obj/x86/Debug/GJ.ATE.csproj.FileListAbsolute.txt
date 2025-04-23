@@ -1310,6 +1310,6 @@ E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ.ATE\GJ.ATE\obj\x86\Debug\GJ.ATE.
 E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ.ATE\GJ.ATE\obj\x86\Debug\GJ.ATE.WndSelectFlow.resources
 E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ.ATE\GJ.ATE\obj\x86\Debug\GJ.ATE.csproj.GenerateResource.cache
 E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ.ATE\GJ.ATE\obj\x86\Debug\GJ.ATE.csproj.CoreCompileInputs.cache
-E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ.ATE\GJ.ATE\obj\x86\Debug\GJ.ATE.csproj.CopyComplete
 E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ.ATE\GJ.ATE\obj\x86\Debug\群光自动线.exe
 E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ.ATE\GJ.ATE\obj\x86\Debug\群光自动线.pdb
+E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ.ATE\GJ.ATE\obj\x86\Debug\GJ.ATE.csproj.CopyComplete
