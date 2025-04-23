@@ -1,0 +1,36 @@
+08:27:35.563 | 打开开机Chroma电子负载串口失败:System.IO.IOException: 端口“COM2”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 GJ.Dev.COM.CSerialPort.open(String comName, String& er, String setting) 位置 E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ.Dev\COM\CSerialPort.cs:行号 121
+08:27:54.299 | 打开开机Chroma电子负载串口失败:System.IO.IOException: 端口“COM2”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 GJ.Dev.COM.CSerialPort.open(String comName, String& er, String setting) 位置 E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ.Dev\COM\CSerialPort.cs:行号 121
+08:44:15.785 | 打开开机Chroma电子负载串口失败:System.IO.IOException: 端口“COM2”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 GJ.Dev.COM.CSerialPort.open(String comName, String& er, String setting) 位置 E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ.Dev\COM\CSerialPort.cs:行号 121
+08:44:16.453 | 打开开机Chroma电子负载串口失败:System.IO.IOException: 端口“COM2”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 GJ.Dev.COM.CSerialPort.open(String comName, String& er, String setting) 位置 E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ.Dev\COM\CSerialPort.cs:行号 121
+08:45:42.498 | 打开开机Chroma电子负载串口失败:System.IO.IOException: 端口“COM2”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 GJ.Dev.COM.CSerialPort.open(String comName, String& er, String setting) 位置 E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ.Dev\COM\CSerialPort.cs:行号 121
+08:45:42.504 | 打开开机Chroma电子负载串口失败:System.IO.IOException: 端口“COM2”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 GJ.Dev.COM.CSerialPort.open(String comName, String& er, String setting) 位置 E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ.Dev\COM\CSerialPort.cs:行号 121
+08:45:42.521 | Failed to open the serial port of the control IO board:System.IO.IOException: 端口“COM1”不存在。
+   在 System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   在 System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   在 System.IO.Ports.SerialPort.Open()
+   在 GJ.Dev.COM.CSerialPort.open(String comName, String& er, String setting) 位置 E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ.Dev\COM\CSerialPort.cs:行号 121
+08:46:05.592 | TurnONUnable to connect to test server[192.168.3.209]:8000

@@ -2289,4 +2289,4 @@ E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ.Para\obj\Debug\GJ.Para.csproj.Ge
 E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ.Para\obj\Debug\GJ.Para.csproj.CoreCompileInputs.cache
 E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ.Para\obj\Debug\GJ.Para.dll
 E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ.Para\obj\Debug\GJ.Para.pdb
-E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ.Para\obj\Debug\GJ.Para.csproj.Up2Date
+E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ.Para\obj\Debug\GJ.Para.csproj.CopyComplete

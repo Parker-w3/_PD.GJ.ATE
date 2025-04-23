@@ -1118,4 +1118,4 @@ E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ.Tool\obj\Debug\GJ.Tool.csproj.Ge
 E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ.Tool\obj\Debug\GJ.Tool.csproj.CoreCompileInputs.cache
 E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ.Tool\obj\Debug\GJ.Tool.dll
 E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ.Tool\obj\Debug\GJ.Tool.pdb
-E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ.Tool\obj\Debug\GJ.Tool.csproj.Up2Date
+E:\Work\repos\A.PD\PD(git)\GJ_ATE\_PD.GJ.ATE\GJ.Tool\obj\Debug\GJ.Tool.csproj.CopyComplete
